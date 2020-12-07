@@ -1,0 +1,27 @@
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.container .card{
+    width: 201px;
+    margin-bottom: 10px!important;
+    margin-right: 2px!important;
+    border-radius: 0.25rem!important;
+}
+.card-body{
+    padding: 10px!important;
+}
+@media (min-width: 576px){
+.card-group > .card {
+    flex: none!important;
+    }
+}
+
+@media (max-width: 576px){
+    .container {
+    display: flex;
+    flex-flow: row wrap;
+}
+}

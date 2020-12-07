@@ -1,0 +1,7 @@
+.imageStyle{
+    height: 220px;
+}
+.card-group{
+    justify-content: center;
+    align-items: baseline;
+}
