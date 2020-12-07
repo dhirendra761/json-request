@@ -28,6 +28,7 @@ export default class TreeItem extends Component {
               (this.state.showImage ? " show" : " hide")
             }
             src={item.image}
+            alt={item.species_name}
           />
         </div>
         <button
